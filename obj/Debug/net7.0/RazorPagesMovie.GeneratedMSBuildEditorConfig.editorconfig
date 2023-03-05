@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\gearb\source\repos\RazorPagesMovie
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/gearb/source/repos/RazorPagesMovie/Pages/Actors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0b3JzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gearb/source/repos/RazorPagesMovie/Pages/Actors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0b3JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gearb/source/repos/RazorPagesMovie/Pages/Actors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0b3JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gearb/source/repos/RazorPagesMovie/Pages/Actors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0b3JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gearb/source/repos/RazorPagesMovie/Pages/Actors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0b3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/gearb/source/repos/RazorPagesMovie/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

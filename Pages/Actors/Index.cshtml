@@ -1,14 +1,12 @@
 @page
-@model RazorPagesMovie.Pages_Movies.IndexModel
+@model RazorPagesMovie.Pages_Actors.IndexModel
 
 @{
     ViewData["Title"] = "Index";
 }
 
 <h1>Index</h1>
-<p>
-    <a asp-page="../Actors/Index">Go To Actors</a>
-</p>
+
 <p>
     <a asp-page="Create">Create New</a>
 </p>
@@ -16,34 +14,28 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Movie[0].Title)
+                @Html.DisplayNameFor(model => model.Actor[0].Name)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Movie[0].ReleaseDate)
+                @Html.DisplayNameFor(model => model.Actor[0].Birthday)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Movie[0].Genre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Movie[0].Price)
+                @Html.DisplayNameFor(model => model.Actor[0].Gender)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.Movie) {
+@foreach (var item in Model.Actor) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Title)
+                @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ReleaseDate)
+                @Html.DisplayFor(modelItem => item.Birthday)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Genre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
+                @Html.DisplayFor(modelItem => item.Gender)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
